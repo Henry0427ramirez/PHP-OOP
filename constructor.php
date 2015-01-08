@@ -11,7 +11,11 @@
   	       }
 
   	       function myAge(){
-  	       	return"($this->age)" . "($this->)"
+  	       	return"($this->age)";
   	       }
   }
+$Giraffe1 = new Giraffe("20","10ft","bob");
+print Giraffe1:{$Giraffe1->myAge()}\n;
+
+
 ?>
