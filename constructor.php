@@ -17,5 +17,4 @@
 $Giraffe1 = new Giraffe("20","10ft","bob");
 print Giraffe1:{$Giraffe1->myAge()}\n;
 
-
 ?>
