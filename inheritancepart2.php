@@ -7,7 +7,7 @@ class Child {
 	public $weight;
 	public $height;
 
-	function__construct($firstname,$lastname,$gender,$weight,$height) {
+	function __construct($firstname,$lastname,$gender,$weight,$height) {
 		$this->firstname = $firstname;
 		$this->lastname = $lastname;
 		$this->gender = $gender;
@@ -20,8 +20,8 @@ class Child {
 	}
 }
 class Boy extends Child {
-	function__construct($firstname,$lastname,$gender,$weight,$height)
-	parent::__construct($firstname,$lastname,$gender,$weight,$height);
+	function __construct($firstname,$lastname,$gender,$weight,$height)
+	parent:: __construct($firstname,$lastname,$gender,$weight,$height);
 	$this->weight = $weight;
 }
 function greet(){
@@ -29,7 +29,7 @@ function greet(){
 }
 
 class Girl extends Child {
-	function__construct($firstname,$lastname,$gender,$weight,$height);
+	function __construct($firstname,$lastname,$gender,$weight,$height);
 	parent::__construct($firstname,$lastname,$gender,$weight,$height);
 	this->gender =$gender;
 }

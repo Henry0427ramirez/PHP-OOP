@@ -8,7 +8,7 @@ class Tree{
     public $color;
     public $height;
 
-    function__construct($name,$scientificname,$gender,$type,$size,$color,$height){
+    function __construct($name,$scientificname,$gender,$type,$size,$color,$height){
         
         $this->name = $name;
         $this->Oak = $Oak;
@@ -22,18 +22,18 @@ class Tree{
     return "This is " . $this->name . " and he's a " . $this->type;
     }
 }
-class OakTree extend Tree{
-	function greet(){
+class OakTree extends Tree{
+	function hello(){
 		return$this->Oak;
 	}
 }
 
-class SpruceTree extend Tree {
+class SpruceTree extends Tree {
 	function hello(){
 	return $this->Spruce;	
 	}
 }
 
-$Oak = new Oak("Oak" , "Tree", "brown", "boy", "20");
+$Oak = new Tree("Oak","Tree","brown","boy","20");
 print "Tree 1 is a " . $Oak->getName();
 ?>
